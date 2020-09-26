@@ -1,0 +1,59 @@
+.body {
+    margin-top: 90px ;
+}
+.brand-text:hover {
+    text-decoration: none;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+.navbar .navbar-item {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+.navbar .navbar-item:last-child {
+    padding-right: 0;
+}
+.navbar .navbar-item .nav-link {
+    color: #252525;
+}
+.navbar .navbar-item .nav-link:hover{
+    color: #3292a6;
+}
+#home {
+    background: url('../img/mountains.jpg');
+    min-height: 700px;
+    position: relative;
+}
+.primary-overlay {
+    background: rgba(50,146,156,0.7);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#subscribe {
+    background: #252525;
+}
+#authors img{
+    margin-top: -60px;
+}
+#authors .card .fa {
+    font-size: 25px;
+}
+#authors .card:hover{
+    background: #3292a6;
+    color: #fff;
+}
+#authors .card:hover .fa {
+    color: #fff;
+}
+@media only screen and (max-width: 576px){
+    .home .display {
+        font-size: 4rem;
+    }
+}
